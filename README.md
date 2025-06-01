@@ -1,1 +1,270 @@
-# projectpkk
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website PKK Yais</title>
+  <link rel="icon" type="image/png" href="https://res.cloudinary.com/dtzcamtgb/image/upload/v1748607432/temp/starsandwich.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-secondary">
+  <div class="container p-0 mb-4 mt-4 rounded-3 shadow bg-white">
+
+    <!-- Menu -->
+    <nav class="d-md-flex p-4">
+      <div><h1>Star Sandwich</h1></div>
+      <div class="ms-auto my-auto">
+        <ul class="list-inline m-0">
+          <li class="list-inline-item mx-md-3"><a href="#keterangan" class="text-decoration-none text-dark fw-bold">Produk Kami</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#tentang" class="text-decoration-none text-dark fw-bold">Tentang Kami</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none text-dark fw-bold">Cara Order</a></li>
+          <li class="list-inline-item mx-md-3"><a href="#media" class="text-decoration-none text-dark fw-bold">Sosial Media</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="px-4 mb-4">
+      <img src="https://res.cloudinary.com/dtzcamtgb/image/upload/v1748607433/temp/sandwichbuah.jpg" class="w-100 rounded-3">
+    </div>
+
+    <!-- Keterangan -->
+    <h3 class="text-center bg-secondary text-white" id="keterangan">Keterangan</h3>
+    <div class="text-center w-50 mx-auto fw-light">
+      <p>
+        Varian produk STAR SANDWICH<br>
+        Kami menyajikan sandwich buah dengan roti lembut, wippy cream, dan buah pilihan. Tersedia dalam beberapa varian favorit:
+      </p>
+      <p>🍇 Anggur — Manis, juicy, dan segar. Cocok untuk Anda yang suka rasa ringan.</p>
+      <p>🍓 Stroberi — Asam-manis menyegarkan dengan warna cerah dan rasa yang khas.</p>
+      <p>🍌 Pisang — Lembut dan manis alami, pilihan klasik yang mengenyangkan.</p>
+      <p>🍓🍇🍌 Mix (campur) — Campuran anggur, stroberi, dan pisang dalam satu sandwich. Lebih seru, lebih berwarna!</p>
+    </div>
+
+    <!-- Katalog Produk -->
+    <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
+      <!-- Varian Anggur -->
+      <div class="col mb-5">
+        <div class="card shadow">
+          <img src="https://raw.githubusercontent.com/tristan27278/StarSandwich/refs/heads/main/img/Varian%20Anggur.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">Sandwich varian anggur</p>
+          </div>
+          <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-primary d-block btnDetail">    
+              <i class="bi bi-cart2"></i>                
+            </a>
+            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp 7000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Varian Stroberi -->
+      <div class="col mb-5">
+        <div class="card shadow">
+          <img src="https://raw.githubusercontent.com/tristan27278/StarSandwich/refs/heads/main/img/Varian%20Strawberry.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">Sandwich varian stroberi</p>
+          </div>
+          <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-primary d-block btnDetail">
+                <i class="bi bi-cart2"></i>
+            </a>
+            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp 7000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Varian Pisang -->
+      <div class="col mb-5">
+        <div class="card shadow">
+          <img src="https://raw.githubusercontent.com/tristan27278/StarSandwich/refs/heads/main/img/Varian%20Pisang.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">Sandwich varian pisang</p>
+          </div>
+          <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-primary d-block btnDetail">
+                <i class="bi bi-cart2"></i>
+            </a>
+            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp 7000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Varian Mix -->
+      <div class="col mb-5">
+        <div class="card shadow">
+          <img src="https://raw.githubusercontent.com/tristan27278/StarSandwich/refs/heads/main/img/Mix%20Varian.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">Sandwich varian mix</p>
+          </div>
+          <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-primary d-block btnDetail">
+                <i class="bi bi-cart2"></i>
+            </a>
+            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp 8000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Keranjang Belanja -->
+    <div class="container mb-5">
+      <h4 class="text-center mb-3">Keranjang Belanja</h4>
+      <div id="keranjang" class="table-responsive">
+        <table class="table table-bordered text-center align-middle">
+          <thead class="table-secondary">
+            <tr>
+              <th>Produk</th>
+              <th>Jumlah</th>
+              <th>Harga</th>
+              <th>Total</th>
+              <th>Batal</th>
+            </tr>
+          </thead>
+          <tbody id="cartItems">
+            <tr><td colspan="5">Keranjang kosong</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="d-flex justify-content-between mt-3">
+        <button class="btn btn-danger" onclick="resetCart()">Reset</button>
+        <h5>Total: <span id="grandTotal">Rp 0</span></h5>
+        <a id="checkoutBtn" target="_blank" class="btn btn-success">Pesan via WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Tentang Kami -->
+    <div id="tentang" class="px-4 py-4 bg-secondary text-center text-white">
+      <div class="mx-auto w-75">
+        <h3>Tentang Kami</h3>
+        <p>Selamat datang di STAR SANDWICH, tempat di mana kesegaran buah bertemu dengan kelezatan sandwich. Kami adalah usaha kreatif yang berfokus pada penjualan sandwich buah segar dengan tampilan menarik dan rasa yang menggugah selera.</p>
+        <p>STAR SANDWICH lahir dari ide sederhana dalam tugas kewirausahaan sekolah, tapi kami percaya bahwa setiap ide besar selalu dimulai dari langkah kecil. Dengan semangat inovasi dan kreativitas, kami ingin menghadirkan produk yang tidak hanya enak, tapi juga sehat dan cocok untuk semua kalangan.</p>
+        <p>Sandwich buah adalah camilan modern yang terdiri dari roti lembut, krim manis ringan, dan potongan buah segar seperti anggur, stroberi, pisang, dan lainnya. Makanan ini populer di Jepang dan kini hadir di Indonesia.</p>
+        <p>Produk kami dirancang dari pelajar untuk membuktikan bahwa anak muda bisa berwirausaha dengan serius dan kreatif.</p>
+      </div>
+    </div>
+
+    <!-- Cara Order -->
+    <div id="order" class="px-4 py-4 bg-light text-center">
+      <div class="mx-auto w-75">
+        <h3>Cara Order</h3>
+        <p>Terima kasih telah mengunjungi website resmi STAR SANDWICH. Kini pemesanan bisa dilakukan langsung melalui keranjang belanja dan WhatsApp.</p>
+      </div>
+    </div>
+
+    <!-- Sosial Media -->
+    <div>
+      <h5 id="media" class="text-center p-2">Sosial Media Kami</h5>
+      <div class="text-center p-2">
+        <a class="text-dark" href="https://wa.me/62895709043700?text=Saya mau pesan sandwich buah"><i class="bi bi-whatsapp mx-2"></i></a>
+        <a class="text-dark" href="https://www.instagram.com/starsandw1ch?igsh=ZGM2amUyeGd5a3Zn"><i class="bi bi-instagram mx-2"></i></a>
+        <a class="text-dark" href="https://youtube.com/@razymizan?si=00rPb0eu-DgtzvBw"><i class="bi bi-youtube mx-2"></i></a>
+        <a class="text-dark" href="https://x.com/starsandwich1?s=09"><i class="bi bi-x-lg mx-2"></i></a>
+        <a class="text-dark" href="https://maps.app.goo.gl/826VmNZYtxRTP6Ui9"><i class="bi bi-geo-alt-fill mx-2"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center px-4 p-2">&copy; 2025 Star Sandwich</div>
+  </div>
+
+  <script>
+    const cart = [];
+
+    const formatRupiah = (angka) => 'Rp ' + angka.toLocaleString('id-ID');
+
+    const updateCart = () => {
+      const cartItems = document.getElementById('cartItems');
+      const grandTotal = document.getElementById('grandTotal');
+      const checkoutBtn = document.getElementById('checkoutBtn');
+      cartItems.innerHTML = '';
+
+      if (cart.length === 0) {
+        cartItems.innerHTML = '<tr><td colspan="5">Keranjang kosong</td></tr>';
+        grandTotal.textContent = 'Rp 0';
+        checkoutBtn.href = 'https://wa.me/62895709043700?text=Saya mau pesan sandwich buah';
+        return;
+      }
+
+      let totalSemua = 0;
+      let totalJumlah = 0;
+      let pesanWA = "Halo, saya ingin pesan:\n";
+
+      cart.forEach((item, i) => {
+        const total = item.harga * item.jumlah;
+        totalSemua += total;
+        totalJumlah += item.jumlah;
+        pesanWA += `- ${item.nama} (${item.jumlah} pcs)\n`;
+
+        cartItems.innerHTML += `
+          <tr>
+            <td>${item.nama}</td>
+            <td>
+              <button class="btn btn-sm btn-secondary" onclick="ubahJumlah(${i}, -1)">-</button>
+              ${item.jumlah}
+              <button class="btn btn-sm btn-secondary" onclick="ubahJumlah(${i}, 1)">+</button>
+            </td>
+            <td>${formatRupiah(item.harga)}</td>
+            <td>${formatRupiah(total)}</td>
+            <td><button class="btn btn-sm btn-danger" onclick="hapusItem(${i})">Hapus</button></td>
+          </tr>`;
+      });
+
+      grandTotal.textContent = formatRupiah(totalSemua);
+
+      if (totalJumlah > 20) {
+        alert("Maksimal pembelian 20 pcs! Kurangi jumlah sebelum melanjutkan.");
+        checkoutBtn.href = "#";
+      } else {
+        checkoutBtn.href = "https://wa.me/62895709043700?text=" + encodeURIComponent(pesanWA + `Total: ${formatRupiah(totalSemua)}`);
+      }
+    };
+
+    const ubahJumlah = (index, perubahan) => {
+      cart[index].jumlah += perubahan;
+      if (cart[index].jumlah <= 0) cart.splice(index, 1);
+      updateCart();
+    };
+
+    const hapusItem = (index) => {
+      cart.splice(index, 1);
+      updateCart();
+    };
+
+    const resetCart = () => {
+      if (confirm("Apakah kamu yakin ingin mereset pesanan?")) {
+        cart.length = 0;
+        updateCart();
+      }
+    };
+
+    document.querySelectorAll('.btnDetail').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const card = btn.closest('.card');
+        const nama = card.querySelector('.card-text').textContent.trim();
+        const harga = parseInt(card.querySelector('.harga').textContent.replace(/[^\d]/g, ''));
+        const existing = cart.find(item => item.nama === nama);
+        const totalQty = cart.reduce((sum, i) => sum + i.jumlah, 0);
+
+        if (totalQty >= 20) {
+          alert("Batas maksimal pembelian adalah 20 pcs!");
+          return;
+        }
+
+        if (existing) {
+          existing.jumlah += 1;
+        } else {
+          cart.push({ nama, harga, jumlah: 1 });
+        }
+        updateCart();
+      });
+    });
+
+    updateCart();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
